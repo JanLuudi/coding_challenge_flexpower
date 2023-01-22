@@ -9,12 +9,17 @@ To install the repository, follow the steps below:
 git clone git@github.com:JanLuudi/coding_challenge_flexpower.git
 ```
 
-2. Just build the docker image with the following command:
+2. Go to directory
+```
+cd coding_challenge_flexpower
+```
+
+3. Just build the docker image with the following command:
 ```
 docker build -t engineering_challenge .
 ```
 
-3. Start docker container on localhost:5000
+4. Start docker container on localhost:5000
 ```
 docker run -dp 5000:5000 engineering_challenge
 ```
