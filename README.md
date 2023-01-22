@@ -1,5 +1,35 @@
 # Engineering Challenge
 
+## My solution
+
+To install the repository, follow the steps below:
+
+1. Clone the repository:
+```
+git clone git@github.com:JanLuudi/coding_challenge_flexpower.git
+```
+
+2. Just build the docker image with the following command:
+```
+docker build -t engineering_challenge .
+```
+
+3. Start docker container on localhost:5000
+```
+docker run -dp 5000:5000 engineering_challenge
+```
+
+### How to use docker container
+1. Now, you can access the page localhost:5000/pnl/strategy_X in your browser
+2. Print the output of task 1 with ```python src/task_1.py```
+
+OR
+
+3. You can test the method compute_total_buy_capacity() by entering this command:
+```python -m pytest tests/```
+
+<hr/>
+
 * [Background](#Background)
 * [Energy Trading in a Nutshell](#Energy-Trading-in-a-Nutshell)
 * [The Challenge](#The-Challenge)
